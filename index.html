@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор номеров</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎰 Генератор номеров</h1>
+            <p class="subtitle">Крути барабаны и выбивай редкие комбинации!</p>
+        </header>
+
+        <div class="balance-panel">
+            <span class="balance-label">Баланс:</span>
+            <span id="balance" class="balance-value">1000</span>
+            <span class="coin">🪙</span>
+            <span class="cost">Стоимость крутки: 100</span>
+        </div>
+
+        <div class="canvas-wrapper">
+            <canvas id="plateCanvas" width="800" height="400"></canvas>
+        </div>
+
+        <div class="controls">
+            <button id="spinButton" class="spin-btn">Крутить номер</button>
+        </div>
+
+        <p id="message" class="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
